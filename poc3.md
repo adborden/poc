@@ -8,5 +8,5 @@ function ci() {
   alert('... with code injection?');
 }
 
-setTimeout(3, ci);
+setTimeout(ci, 3);
 </script>
